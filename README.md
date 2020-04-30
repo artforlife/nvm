@@ -92,8 +92,8 @@ Since OS X 10.9, `/usr/bin/git` has been preset by Xcode command line tools, whi
 If you get `nvm: command not found` after running the install script, one of the following might be the reason:
 
   - Your system may not have a `.bash_profile` file where the command is set up. Create one with `touch ~/.bash_profile` and run the install script again
-
-  - You might need to restart your terminal instance. Try opening a new tab/window in your terminal and retry.
+  - After that, try running `source ~/.bash_profile` to make the `nvm` command available.
+  - If the above didn't help, you might need to restart your terminal instance. Try opening a new tab/window in your terminal and retry.
 
 If the above doesn't fix the problem, you may try the following:
 
